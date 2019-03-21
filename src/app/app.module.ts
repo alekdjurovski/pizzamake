@@ -8,6 +8,7 @@ import { FirstSliderComponent } from './components/first-slider/first-slider.com
 import { SecondSliderComponent } from './components/second-slider/second-slider.component';
 import { RestoranComponent } from './components/restoran/restoran.component';
 import { LoginComponent } from './components/login/login.component';
+import { RegisterComponent } from './components/register/register.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { LoginComponent } from './components/login/login.component';
     FirstSliderComponent,
     SecondSliderComponent,
     RestoranComponent,
-    LoginComponent
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
